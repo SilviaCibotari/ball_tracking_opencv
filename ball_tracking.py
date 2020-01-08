@@ -119,12 +119,14 @@ else:
 # close all windows
 cv2.destroyAllWindows()
 #======================================================================================================
+
+
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
 
 This is a temporary script file.
-"""
+
 from math import *
 import numpy as np
 #open image from local env
@@ -156,3 +158,5 @@ for i in range(width-1):
 #image = Image.fromarray(pixels)
 img.save("ballgray.png")
 img.show()
+
+"""
